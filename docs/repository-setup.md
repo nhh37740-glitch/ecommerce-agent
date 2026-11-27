@@ -41,7 +41,9 @@
 
 - 提供 PR 模板、缺陷和功能 Issue 表单。
 - 与参考仓库一致，开启 Issues、Discussions、Wiki 和 Projects。
-- 启用 Dependabot 漏洞告警、自动安全修复、secret scanning、push protection 和私密漏洞报告。
+- 启用 Dependabot 漏洞告警、secret scanning、push protection 和私密漏洞报告。
+- Dependabot 自动安全修复保持关闭，与参考仓库一致；启用该功能需另行明确授权。
+- Dependabot 版本更新 PR 同样受关联 Issue 规则约束，维护者应先建立对应 Issue，再将 PR 正文首行改为 `Closes #N`，并将正文整理为 600 字以内。
 - 未配置部署工作流、部署 Secrets 或 VPS 环境；项目部署目录尚未确定。
 - 服务器连接信息仅保存于本地 `SERVER_INFO.md`，不进入版本控制。
 
