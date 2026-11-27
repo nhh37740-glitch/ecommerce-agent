@@ -1,0 +1,24 @@
+name: 缺陷报告
+description: 报告可以复现的问题
+title: "[Bug] "
+labels: [bug]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: 问题与预期行为
+      description: 说明实际发生了什么，以及预期结果。
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: 复现步骤
+      description: 提供最小复现步骤、运行环境与相关版本。不要填写凭据。
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: 相关日志
+      description: 提交前移除密码、令牌和服务器连接信息。

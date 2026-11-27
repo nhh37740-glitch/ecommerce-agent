@@ -1,0 +1,19 @@
+name: 功能建议
+description: 提出具体需求和验收标准
+title: "[Feature] "
+labels: [enhancement]
+body:
+  - type: textarea
+    id: need
+    attributes:
+      label: 使用场景与需求
+      description: 说明谁会使用、要解决什么问题。
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: 验收标准
+      description: 描述可以验证的完成条件。
+    validations:
+      required: true

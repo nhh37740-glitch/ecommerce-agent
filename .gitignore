@@ -1,0 +1,35 @@
+# Local server access notes
+/SERVER_INFO.md
+/.local/
+
+# Credentials and machine-local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.ppk
+id_rsa*
+id_ed25519*
+credentials.json
+secrets.json
+/.claude/settings.local.json
+
+# Dependencies and generated files
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+coverage/
+dist/
+build/
+*.log
+
+# Editor and OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
